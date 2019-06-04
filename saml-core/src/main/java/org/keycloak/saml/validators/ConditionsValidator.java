@@ -62,7 +62,7 @@ public class ConditionsValidator {
 
         private final DestinationValidator destinationValidator;
 
-        private int clockSkewInMillis = 0;
+        private int clockSkewInMillis = 1000;
 
         private final Set<URI> allowedAudiences = new HashSet<>();
 
